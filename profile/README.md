@@ -11,7 +11,7 @@ Kudos to [carlosedp](https://github.com/carlosedp) for his great [riscv-bringup]
 ## Roadmap
 ###  Long-term
 
-Complete support for `riscv64`.
+Complete support for `riscv64`, ETA late 2025.
 
 1. [protobuf][protobuf] adds support for `riscv64` ([issue][protobuf-issue], [PR][protobuf-pr])
 2. `riscv64` downloads  are available on [golang.org](https://golang.org/dl/) ([golang/go#53862][go-issue])
