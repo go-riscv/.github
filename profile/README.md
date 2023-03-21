@@ -6,6 +6,8 @@ The [Go Faster](https://github.com/go-faster/) initiative to bring RISC-V (`risc
 
 Kudos to [carlosedp](https://github.com/carlosedp) for his great [riscv-bringup](https://github.com/carlosedp/riscv-bringup/)!
 
+*NB: This organization is not officially affiliated with [RISC-V](https://riscv.org/) project.*
+
 ## Roadmap
 ###  Long-term
 
