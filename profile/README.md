@@ -6,7 +6,11 @@ The [Go Faster](https://github.com/go-faster/) initiative to bring RISC-V (`risc
 
 Kudos to [carlosedp](https://github.com/carlosedp) for his great [riscv-bringup](https://github.com/carlosedp/riscv-bringup/)!
 
-Long-term roadmap:
+## Roadmap
+###  Long-term
+
+Complete support for `riscv64`.
+
 1. [protobuf][protobuf] adds support for `riscv64` ([issue][protobuf-issue], [PR][protobuf-pr])
 2. `riscv64` downloads  are available on [golang.org](https://golang.org/dl/) ([golang/go#53862][go-issue])
 3. [riscv64 port](https://wiki.debian.org/Ports/riscv64) becomes stable
@@ -32,4 +36,15 @@ Long-term roadmap:
 [cilium-issue]: https://github.com/cilium/cilium/issues/24434
 [cilium-pr]: https://github.com/cilium/cilium/pull/24436
 
-*NB: This organization is not officially affiliated with [RISC-V](https://riscv.org/) project.*
+### Short-term
+
+Setup CI/CD pipeline for `riscv64` artifacts and host them here until they are upstreamed.
+
+- [x] Distroless images
+- [x] Busybox
+- [ ] Docker "Official Image" for Go
+- [ ] Image: etcd
+- [ ] Kubernetes base images
+- [ ] Kubernetes release artifacts (kubelet, kubeadm, kubectl, ...)
+- [ ] Cilium binaries
+- [ ] Cilium images
