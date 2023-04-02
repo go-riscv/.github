@@ -28,6 +28,10 @@ sub   elg2048 2023-03-20 [E] [expires: 2028-03-18]
 ```
 
 Cosign public key:
+
+```
+wget https://github.com/go-riscv/.github/raw/main/cosign.pub
+```
 ```
 -----BEGIN PUBLIC KEY-----
 MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEoToNKAqA+QN2yTBN1HKBLTEd1aDJ
