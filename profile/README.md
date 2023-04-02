@@ -122,7 +122,7 @@ Setup CI/CD pipeline for `riscv64` artifacts and host them here until they are u
 
 - [x] Distroless images
 - [x] Busybox
-- [ ] Docker "Official Image" for Go
+- [x] Docker "Official Image" for Go
 - [ ] Image: etcd
 - [ ] Kubernetes base images
 - [ ] Kubernetes release artifacts (kubelet, kubeadm, kubectl, ...)
