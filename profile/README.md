@@ -65,6 +65,17 @@ FROM ghcr.io/go-riscv/distroless/static-unstable:nonroot
 FROM ghcr.io/go-riscv/distroless/static-unstable:latest
 ```
 
+### Go image
+See [go-riscv/go][docker-package]. Based on `riscv64/buildpack-deps:sid-scm` image.
+
+Tags: `1.20.2`, `1.20`, `latest`
+
+[docker-package]: https://github.com/orgs/go-riscv/packages/container/package/go
+
+```dockerfile
+FROM ghcr.io/go-riscv/go:1.20
+```
+
 [distroless-packages]: https://github.com/orgs/go-riscv/packages?repo_name=distroless
 [distroless-repo]: https://github.com/go-riscv/distroless
 
