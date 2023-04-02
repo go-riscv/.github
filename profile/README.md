@@ -70,7 +70,7 @@ See [go-riscv/go][docker-package]. Based on `riscv64/buildpack-deps:sid-scm` ima
 
 Tags: `1.20.2`, `1.20`, `latest`
 
-[docker-package]: https://github.com/orgs/go-riscv/packages/container/package/go
+[docker-package]: https://github.com/go-riscv/docker-library-go/pkgs/container/go
 
 ```dockerfile
 FROM ghcr.io/go-riscv/go:1.20
