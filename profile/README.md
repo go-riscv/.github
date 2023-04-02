@@ -18,6 +18,15 @@ See [943040B9817AC4C7][keyserver] on keyserver.ubuntu.com:
 gpg --batch --keyserver keyserver.ubuntu.com --recv-keys '943040B9817AC4C7'
 ```
 
+```
+pub   dsa2048 2023-03-20 [SC] [expires: 2028-03-18]
+      7B7C86E59840A829F7657100943040B9817AC4C7
+uid           [ unknown] go-riscv (Key for https://github.com/go-riscv) <riscv@go-faster.org>
+sub   rsa4096 2023-04-02 [E] [expires: 2028-03-31]
+sub   rsa4096 2023-04-02 [S] [expires: 2028-03-31]
+sub   elg2048 2023-03-20 [E] [expires: 2028-03-18]
+```
+
 Cosign public key:
 ```
 -----BEGIN PUBLIC KEY-----
