@@ -8,6 +8,60 @@ Kudos to [carlosedp](https://github.com/carlosedp) for his great [riscv-bringup]
 
 *NB: This organization is not officially affiliated with [RISC-V](https://riscv.org/) project.*
 
+## Signing keys
+
+See [943040B9817AC4C7][keyserver] on keyserver.ubuntu.com:
+
+[keyserver]: https://keyserver.ubuntu.com/pks/lookup?search=943040B9817AC4C7&fingerprint=on&op=index
+
+```
+gpg --batch --keyserver keyserver.ubuntu.com --recv-keys '943040B9817AC4C7'
+```
+
+Cosign public key:
+```
+-----BEGIN PUBLIC KEY-----
+MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEoToNKAqA+QN2yTBN1HKBLTEd1aDJ
+32hM/MJHmNf4Y/8R5ZpOM+Lo+OGykd/4ZsJU5T+Kp441UKN0fKZFTi9aZA==
+-----END PUBLIC KEY-----
+```
+
+## Releases
+
+### Go
+Grab [latest release][go-latest] from [go-riscv/go][go-repo] repository:
+
+| File name                                                                                                                        | Kind        | Size      | SHA256                                                               |
+|----------------------------------------------------------------------------------------------------------------------------------|-------------|-----------|----------------------------------------------------------------------|
+| [**go1.20.2.linux-riscv64.tar.gz**](https://github.com/go-riscv/go/releases/download/build-230402/go1.20.2.linux-riscv64.tar.gz) | **Archive** | **154MB** | **024b9a98d7e2facc553bd9b00cd8ccbc22c82248c4d85f0b6a89b5eafc5715d2** |
+| [go-linux-riscv64-bootstrap.tbz](https://github.com/go-riscv/go/releases/download/build-230402/go-linux-riscv64-bootstrap.tbz)   | Bootstrap   | 88MB      | d06f0c6e6d9a141271f41d61a8d0e813cc8f162e9a2d7bf119c40ee3e7a5c2b8     |
+| [go1.20.2.src.tar.gz](https://github.com/go-riscv/go/releases/download/build-230402/go1.20.2.src.tar.gz)                         | Source      | 24MB      | 4d0e2850d197b4ddad3bdb0196300179d095bb3aefd4dfbc3b36702c3728f8ab     |
+
+[go-repo]: https://github.com/go-riscv/go
+[go-latest]: https://github.com/go-riscv/go/releases/latest
+
+### Distroless
+
+See [packages][distroless-packages] from [go-rsicv/distroless][distroless-repo] repository:
+
+```dockerfile
+FROM ghcr.io/go-riscv/distroless/static-unstable:nonroot
+```
+
+```dockerfile
+FROM ghcr.io/go-riscv/distroless/static-unstable:latest
+```
+
+[distroless-packages]: https://github.com/orgs/go-riscv/packages?repo_name=distroless
+[distroless-repo]: https://github.com/go-riscv/distroless
+
+### Busybox
+
+Grab [latest release][busybox-latest] from [go-riscv/busybox][busybox-repo] repository.
+
+[busybox-repo]: https://github.com/go-riscv/busybox
+[busybox-latest]: https://github.com/go-riscv/busybox/releases/latest
+
 ## Roadmap
 ###  Long-term
 
