@@ -44,12 +44,11 @@ MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEoToNKAqA+QN2yTBN1HKBLTEd1aDJ
 ### Go
 Grab [latest release][go-latest] from [go-riscv/go][go-repo] repository:
 
-| File name                                                                                                                        | Kind        | Size      | SHA256                                                               |
-|----------------------------------------------------------------------------------------------------------------------------------|-------------|-----------|----------------------------------------------------------------------|
-| [**go1.20.2.linux-riscv64.tar.gz**](https://github.com/go-riscv/go/releases/download/build-230402/go1.20.2.linux-riscv64.tar.gz) | **Archive** | **154MB** | **024b9a98d7e2facc553bd9b00cd8ccbc22c82248c4d85f0b6a89b5eafc5715d2** |
-| [go-linux-riscv64-bootstrap.tbz](https://github.com/go-riscv/go/releases/download/build-230402/go-linux-riscv64-bootstrap.tbz)   | Bootstrap   | 88MB      | d06f0c6e6d9a141271f41d61a8d0e813cc8f162e9a2d7bf119c40ee3e7a5c2b8     |
-| [go1.20.2.src.tar.gz](https://github.com/go-riscv/go/releases/download/build-230402/go1.20.2.src.tar.gz)                         | Source      | 24MB      | 4d0e2850d197b4ddad3bdb0196300179d095bb3aefd4dfbc3b36702c3728f8ab     |
-
+| File name | Kind | Size | SHA256 |
+|-----------|------|------|--------|
+| [**go1.20.3.linux-riscv64.tar.gz**](https://github.com/go-riscv/go/releases/download/build-230412.0/go1.20.3.linux-riscv64.tar.gz) | **Archive** | **154MB** | **cc04195c17885aab1264df24d09e417854bebbc6e567e422cdce1eb6399053bc** |
+| [go-linux-riscv64-bootstrap.tbz](https://github.com/go-riscv/go/releases/download/build-230412.0/go-linux-riscv64-bootstrap.tbz) | Bootstrap | 88MB | 9172512332c26f8adccce9a0177292f19efa2f0b5eca5ac4855539973a301195 |
+| [go1.20.3.src.tar.gz](https://github.com/go-riscv/go/releases/download/build-230412.0/go1.20.3.src.tar.gz) | Source | 24MB | e447b498cde50215c4f7619e5124b0fc4e25fb5d16ea47271c47f278e7aa763a |
 [go-repo]: https://github.com/go-riscv/go
 [go-latest]: https://github.com/go-riscv/go/releases/latest
 
