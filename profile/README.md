@@ -49,6 +49,7 @@ Grab [latest release][go-latest] from [go-riscv/go][go-repo] repository:
 | [**go1.20.3.linux-riscv64.tar.gz**](https://github.com/go-riscv/go/releases/download/build-230412.0/go1.20.3.linux-riscv64.tar.gz) | **Archive** | **154MB** | **cc04195c17885aab1264df24d09e417854bebbc6e567e422cdce1eb6399053bc** |
 | [go-linux-riscv64-bootstrap.tbz](https://github.com/go-riscv/go/releases/download/build-230412.0/go-linux-riscv64-bootstrap.tbz) | Bootstrap | 88MB | 9172512332c26f8adccce9a0177292f19efa2f0b5eca5ac4855539973a301195 |
 | [go1.20.3.src.tar.gz](https://github.com/go-riscv/go/releases/download/build-230412.0/go1.20.3.src.tar.gz) | Source | 24MB | e447b498cde50215c4f7619e5124b0fc4e25fb5d16ea47271c47f278e7aa763a |
+
 [go-repo]: https://github.com/go-riscv/go
 [go-latest]: https://github.com/go-riscv/go/releases/latest
 
