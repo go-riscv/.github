@@ -128,3 +128,31 @@ Setup CI/CD pipeline for `riscv64` artifacts and host them here until they are u
 - [ ] Kubernetes release artifacts (kubelet, kubeadm, kubectl, ...)
 - [ ] Cilium binaries
 - [ ] Cilium images
+
+
+#### Issues and PRs
+
+Links:
+
+- https://github.com/carlosedp/riscv-bringup/
+- https://lists.debian.org/debian-riscv/2023/03/msg00001.html
+
+Issues and PR's:
+
+- https://github.com/golang/go/issues/59113
+- https://github.com/golang/go/issues/53862
+- https://github.com/golang/go/issues/59317
+- https://github.com/kubernetes-sigs/cri-tools/pull/1116
+- https://github.com/etcd-io/etcd/pull/15490
+- https://github.com/protocolbuffers/protobuf/pull/12244
+- https://github.com/protocolbuffers/protobuf/issues/12266
+- https://github.com/GoogleContainerTools/distroless/pull/1268
+- https://github.com/GoogleContainerTools/distroless/issues/1269
+- https://github.com/kubernetes/release/pull/2968
+- https://github.com/cilium/cilium/issues/24434
+- https://github.com/cilium/cilium/pull/24436
+- https://github.com/golang/go/issues/59113
+- https://github.com/docker-library/golang/issues/455
+- https://github.com/docker-library/golang/issues/435
+- https://github.com/docker-library/official-images/pull/10502
+- https://github.com/prometheus/node_exporter/issues/2645
