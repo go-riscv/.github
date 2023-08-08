@@ -82,16 +82,16 @@ Grab [latest release][busybox-latest] from [go-riscv/busybox][busybox-repo] repo
 
 Complete support for `riscv64`, ETA late 2025.
 
-1. [protobuf][protobuf] adds support for `riscv64` ([issue][protobuf-issue], [PR][protobuf-pr])
-2. `riscv64` downloads  are available on [golang.org](https://golang.org/dl/) ([golang/go#53862][go-issue])
-3. [riscv64 port](https://wiki.debian.org/Ports/riscv64) becomes stable
-4. debian 13 (trixie) is [released](https://en.wikipedia.org/wiki/Debian_version_history) in ~2025
-5. [distroless](https://github.com/GoogleContainerTools/distroless/) adds support for  debian13 and `riscv64`
-6. [docker "Official Image" for Go](https://github.com/docker-library/golang) is available for `riscv64`
-7. [etcd][etcd] project adds support for `riscv64` ([PR][etcd-pr])
-8. [kubernetes/release][k8s-release] adds support for `riscv64` ([PR][k8s-release-pr])
-9. [kubernetes][k8s] project adds support for `riscv64` ([PR][k8s-pr])
-10. [cilium][cilium] project adds support for `riscv64` ([issue][cilium-issue], [PR][cilium-pr])
+- [x] `riscv64` downloads  are available on [golang.org](https://golang.org/dl/) ([golang/go#53862][go-issue])
+- [x] [riscv64 port](https://wiki.debian.org/Ports/riscv64) becomes official
+- [ ] [protobuf][protobuf] adds support for `riscv64` ([issue][protobuf-issue], [PR][protobuf-pr])
+- [ ] debian 13 (trixie) is [released](https://en.wikipedia.org/wiki/Debian_version_history) in ~2025
+- [ ] [distroless](https://github.com/GoogleContainerTools/distroless/) adds support for  debian13 and `riscv64`
+- [ ] [docker "Official Image" for Go](https://github.com/docker-library/golang) is available for `riscv64`
+- [ ] [etcd][etcd] project adds support for `riscv64` ([PR][etcd-pr])
+- [ ] [kubernetes/release][k8s-release] adds support for `riscv64` ([PR][k8s-release-pr])
+- [ ] [kubernetes][k8s] project adds support for `riscv64` ([PR][k8s-pr])
+- [ ] [cilium][cilium] project adds support for `riscv64` ([issue][cilium-issue], [PR][cilium-pr])
 
 [go-issue]: https://github.com/golang/go/issues/53862
 [protobuf]: https://github.com/protocolbuffers/protobuf
