@@ -57,7 +57,7 @@ FROM ghcr.io/go-riscv/distroless/static-unstable:latest
 ```
 
 ### Go image
-See [go-riscv/go][docker-package]. Based on `riscv64/buildpack-deps:sid-scm` image.
+See [go-riscv/docker-library-go][docker-package]. Based on `riscv64/buildpack-deps:sid-scm` image.
 
 Tags: `1.20.2`, `1.20`, `latest`
 
