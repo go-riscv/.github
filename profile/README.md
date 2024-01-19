@@ -77,6 +77,17 @@ Grab [latest release][busybox-latest] from [go-riscv/busybox][busybox-repo] repo
 [busybox-repo]: https://github.com/go-riscv/busybox
 [busybox-latest]: https://github.com/go-riscv/busybox/releases/latest
 
+### etcd
+
+See [packages][etcd-packages] from [go-riscv/etcd][etcd-repo] repository:
+
+```dockerfile
+FROM ghcr.io/go-riscv/etcd:v3.6.0-riscv64.0-riscv64
+```
+
+[etcd-repo]: https://github.com/go-riscv/etcd
+[etcd-packages]: https://github.com/go-riscv/etcd/pkgs/container/etcd
+
 ## Roadmap
 ###  Long-term
 
