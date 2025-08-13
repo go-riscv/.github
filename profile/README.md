@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://go-faster.org"><img src="./profile/logo_borderless.svg" width="256" height="105" alt="go faster logo"></a>
+<a href="https://go-faster.org"><img src="logo_borderless.svg" width="256" height="105" alt="go faster logo"></a>
 </p>
 
 The [Go Faster](https://github.com/go-faster/) initiative to bring RISC-V (`riscv64`) to Go and Kubernetes ecosystem.
@@ -96,7 +96,7 @@ Complete support for `riscv64`, ETA late 2025.
 - [x] `riscv64` downloads  are available on [golang.org](https://golang.org/dl/) ([golang/go#53862][go-issue])
 - [x] [riscv64 port](https://wiki.debian.org/Ports/riscv64) becomes official
 - [ ] [protobuf][protobuf] adds support for `riscv64` ([issue][protobuf-issue], [PR][protobuf-pr])
-- [ ] debian 13 (trixie) is [released](https://en.wikipedia.org/wiki/Debian_version_history) in ~2025
+- [x] debian 13 (trixie) is [released](https://en.wikipedia.org/wiki/Debian_version_history) in ~2025
 - [ ] [distroless](https://github.com/GoogleContainerTools/distroless/) adds support for  debian13 and `riscv64`
 - [ ] [docker "Official Image" for Go](https://github.com/docker-library/golang) is available for `riscv64`
 - [ ] [etcd][etcd] project adds support for `riscv64` ([PR][etcd-pr])
